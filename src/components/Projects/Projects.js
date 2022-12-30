@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import netflix from "../../Assets/Projects/netflix.png";
 import movie from "../../Assets/Projects/movie.png";
+import d from "../../Assets/Projects/d.png";
 
 function Projects() {
   return (
@@ -39,16 +40,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={news}
+              imgPath={d}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="3d object viewer"
+              description="Online 3d model viewer made using Three Js library of Javascript."
+              ghLink="https://github.com/Ayushi-Kosta/Fabrik"
+              demoLink="https://lustrous-monstera-b7d840.netlify.app/"              
             />
-          </Col> */}
+          </Col>
 
         </Row>
       </Container>
