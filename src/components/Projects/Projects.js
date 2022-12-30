@@ -31,23 +31,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={movie}
-              isBlog={false}
-              title="Movie Recommendation App"
-              description="A Content Based Recommender System which recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie."
-              ghLink="https://github.com/Ayushi-Kosta/Microsoft_Engage_Project"
-              demoLink="https://youtu.be/_JUreOM93VQ"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={d}
               isBlog={false}
               title="3d object viewer"
               description="Online 3d model viewer made using Three Js library of Javascript."
               ghLink="https://github.com/Ayushi-Kosta/Fabrik"
               demoLink="https://lustrous-monstera-b7d840.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movie}
+              isBlog={false}
+              title="Movie Recommendation App"
+              description="A Content Based Recommender System which recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie."
+              ghLink="https://github.com/Ayushi-Kosta/Microsoft_Engage_Project"
+              demoLink="https://youtu.be/_JUreOM93VQ"
             />
           </Col>
 
