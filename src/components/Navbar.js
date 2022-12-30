@@ -93,7 +93,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                // href="https://blogs.soumya-jit.tech/"
+                // href="https://blogs.ayushi.tech/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -103,7 +103,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Ayushi-Kosta"
+                href="https://github.com/Ayushi-Kosta/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
