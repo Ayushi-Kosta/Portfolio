@@ -59,10 +59,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            <h1>FIND <span className="blue">ME</span> ON</h1>
+            {/* <p>
               Feel free to <span className="blue">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
