@@ -8,17 +8,22 @@ import {
   AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 function Home2() {
+  AOS.init({
+    duration: 1200,
+  })
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 data-aos="fade-right" data-aos-delay="100" style={{ fontSize: "2.6em" }}>
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p data-aos="fade-right" data-aos-delay="300" className="home-about-body">
               I am currently a 3rd year student pursuing my Bachelors in Computer Science from Jabalpur Engineering College, Jabalpur. 
               <br />
               <br />I am fluent in classics like
@@ -51,7 +56,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" data-aos="fade-left" data-aos-delay="100">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -59,11 +64,11 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND <span className="blue">ME</span> ON</h1>
+            <h1 data-aos="flip-left" data-aos-delay="200">FIND <span className="blue">ME</span> ON</h1>
             {/* <p>
               Feel free to <span className="blue">connect </span>with me
             </p> */}
-            <ul className="home-about-social-links">
+            <ul className="home-about-social-links" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
               <li className="social-icons">
                 <a
                   href="https://github.com/Ayushi-Kosta"

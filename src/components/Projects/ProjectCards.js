@@ -3,10 +3,15 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 function ProjectCards(props) {
+  AOS.init({
+    duration: 1200,
+  })
   return (
-    <Card className="project-card-view">
+    <Card className="project-card-view" data-aos="zoom-in" data-aos-delay="300" transition-timing-function= "ease">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

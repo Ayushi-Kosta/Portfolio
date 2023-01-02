@@ -14,10 +14,15 @@ import {
   SiFirebase,
   SiNextdotjs,
 } from "react-icons/si";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 function Techstack() {
+  AOS.init({
+    duration: 1200,
+  })
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }} data-aos="zoom-in" data-aos-delay="300">
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
