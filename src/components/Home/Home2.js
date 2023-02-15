@@ -28,7 +28,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="blue"> C++, Javascript and Python. </b>
+                <b className="blue"> C++, Javascript, Solidity and Python. </b>
               </i>
               <br />
               <br />
@@ -37,13 +37,13 @@ function Home2() {
                 <b className="blue">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="blue">
-                  Machine Learning.
+                  Web3 and Machine Learning.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="blue">Node.js</b> and
+              with <b className="blue"> Blockchain, Node.js</b> and
               <i>
                 <b className="blue">
                   {" "}
@@ -52,7 +52,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="blue"> React.js.</b>
+                <b className="blue"> React.js and Next.js.</b>
               </i>
             </p>
           </Col>

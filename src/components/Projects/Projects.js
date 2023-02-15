@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import netflix from "../../Assets/Projects/netflix.png";
 import movie from "../../Assets/Projects/movie.png";
 import d from "../../Assets/Projects/d.png";
+import whitelist from "../../Assets/Projects/whitelist.png";
+import xrypto from "../../Assets/Projects/xrypto.png";
 
 function Projects() {
   return (
@@ -18,6 +20,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={whitelist}
+              isBlog={false}
+              title="KKrypto Whitelist dApp"
+              description="Tech Used - Next JS, Solidity, Hardhat. A dApp to waitlist NFT collectors built to interact with a Smart Contract & to add addresses to a whitelist."
+              ghLink="https://github.com/Ayushi-Kosta/KKrypto_Whitelist_dapp"
+              demoLink="https://kkrypto-whitelist-dapp.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={xrypto}
+              isBlog={false}
+              title="Xrypto - A Decentralized Exchange"
+              description="Tech Used - React JS, Solidity, Hardhat, Griphy API. Connects with the user wallet (metamask, coinbase etc) and allows users to send transactions securely. Stores latest transaction and displays it on website along with their links. Github"
+              ghLink="https://github.com/Ayushi-Kosta/Xrypto"
+              demoLink="https://xrypto-crypto.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={netflix}
